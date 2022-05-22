@@ -1,0 +1,58 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Russo One", sans-serif;
+    color: aliceblue;
+}
+h1 {
+    letter-spacing: 30px;
+    padding-top: 4%;
+}
+#left-mistake {
+    padding-top: 50px;
+    letter-spacing: 10px;
+    font-size: large;
+}
+#blank-letters {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+.blanks {
+    font-weight: bold;
+    font-size: 40px;
+}
+#keyboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+#keyboard .keyboard-letters {
+    font-weight: bold;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.keyboard-letters:hover {
+    background-image: url("img/bangsal-nam-9HMGyZJfrk8-unsplash.jpg");
+    background-size: cover;
+}
+#reset-button {
+    margin-top: 30px;
+    justify-content: center;
+    height: 30px;
+    width: 80px;
+    cursor: pointer;
+}
