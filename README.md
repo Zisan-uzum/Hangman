@@ -1,1 +1,1 @@
-Demo preview https://doyouwanttohangman.netlify.app/
+Live preview https://doyouwanttohangman.netlify.app/
